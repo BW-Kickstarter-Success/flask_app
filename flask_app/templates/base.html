@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <body>
+
+    <h2>Paste a URL to your project!</h2>
+
+    {% block content %}
+    <form action="/request">
+      <input type="text" name="url" placeholder="Project URL">
+      <input type="submit" value="Get Data">
+      <br>
+    </form>
+    {% endblock %}
+</body>
+</html>
